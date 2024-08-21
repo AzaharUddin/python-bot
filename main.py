@@ -5,7 +5,7 @@ import telebot
 ##TOKEN DETAILS
 TOKEN = "TRON"
 
-BOT_TOKEN = "7405834753:AAGRBgIdGU6PCjygm9UAHXfEG7pZExWHTe0"
+BOT_TOKEN = "6904010121:AAEiZqkK_FoXI-DK9g1v2iiaurRjnR-IO8A"
 PAYMENT_CHANNEL = "@ReferAndEarn399" #add payment channel here including the '@' sign
 OWNER_ID = 1870276025 #write owner's user id here.. get it from @MissRose_Bot by /id
 CHANNELS = ["@ReferAndEarn399"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
@@ -14,7 +14,7 @@ Daily_bonus = 1 #Put daily bonus amount here!
 Mini_Withdraw = 0.5  #remove 0 and add the minimum withdraw u want to set
 Per_Refer = 0.0001 #add per refer bonus here
 
-bot = telebot.TeleBot(7405834753:AAGRBgIdGU6PCjygm9UAHXfEG7pZExWHTe0)
+bot = telebot.TeleBot(6904010121:AAEiZqkK_FoXI-DK9g1v2iiaurRjnR-IO8A)
 
 def check(id):
     for i in CHANNELS:
