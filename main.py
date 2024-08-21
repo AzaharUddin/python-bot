@@ -1,6 +1,5 @@
 import time
 import json
-import telebot
 
 ##TOKEN DETAILS
 TOKEN = "TRON"
